@@ -6,8 +6,8 @@ The official web site is: [QRCard]
 
 ### Author
 QRCard is made by [eugenio.polito]. <br> 
-*LinkedIn*: [Linkedin] <br>
-*Twitter*: [Twitter]
+*LinkedIn:* [Linkedin] <br>
+*Twitter:*: [Twitter]
 
 ### Version
 1.5
@@ -30,5 +30,5 @@ MIT
 [eugenio.polito]:mailto:eugenio.polito@gmail.com
 [QRCard]:https://qrcard.wordpress.com
 [zxing]:https://github.com/zxing/zxing
-[Linkedin]:https://it.linkedin.com/pub/eugenio-polito/73/9b4/2a3
-[Twitter]:https://twitter.com/EugenioPolito
+[Linkedin:]:https://it.linkedin.com/pub/eugenio-polito/73/9b4/2a3
+[Twitter:]:https://twitter.com/EugenioPolito
