@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.ep.qrsafe.ShowQRCodeActivity">
+    <item
+        android:id="@+id/share_qrcode"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/share_qrcode"
+        compat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>

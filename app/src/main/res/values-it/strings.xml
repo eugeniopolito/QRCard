@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">QRCard</string>
+    <string name="about_qrsafe">QRCard è realizzato da Eugenio Polito [eugenio.polito@gmail.com]</string>
+
+    <string name="action_edit">Modifica</string>
+    <string name="action_scan">Scannerizza</string>
+    <string name="action_about">About</string>
+
+    <string name="qr_prompt">Inquadra il QR code da acquisire</string>
+    <string name="qr_code_wrong">Il QR code non è nel formato vCard corretto</string>
+    <string name="cannot_add_contact">Il contatto non può essere salvato in rubrica</string>
+    <string name="config">I tuoi dati personali</string>
+
+    <string name="name">Nome</string>
+    <string name="surname">Cognome</string>
+    <string name="organization">Organizzazione</string>
+    <string name="telephone">Telefono</string>
+    <string name="address">Indirizzo</string>
+    <string name="zip_code">Codice postale</string>
+    <string name="city">Città</string>
+    <string name="email">E-mail</string>
+    <string name="notes">Note</string>
+
+    <string name="start_activity">Genera un nuovo QR code o acquisiscine uno esistente</string>
+    <string name="button_create">Genera QR code</string>
+    <string name="button_scan">Scansiona QR code</string>
+    <string name="add_widget">Adesso puoi aggiungere il widget QRCard alla tua schermata di blocco e/o alla schermata home oppure condividere il tuo QR code!</string>
+    <string name="generated_qr_code">Il tuo QR Code:</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+    <string name="warning">Attenzione</string>
+
+    <string name="name_mandatory">Il nome è obbligatorio</string>
+    <string name="surname_mandatory">Il cognome è obbligatorio</string>
+    <string name="email_not_valid">L\'indirizzo E-mail non è valido</string>
+    <string name="site_not_valid">L\'indirizzo web non è valido</string>
+    <string name="birthday_not_valid">La data del compleanno non è valida</string>
+
+    <string name="qr_code_missing">Devi creare prima il QR code!</string>
+
+    <string name="share_qrcode">Condividi</string>
+
+    <string name="add_contact">Aggiungi contatto</string>
+    <string name="contact_added">Il contatto è stato aggiunto in rubrica</string>
+
+</resources>

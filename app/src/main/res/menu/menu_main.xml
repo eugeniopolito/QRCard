@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:compat="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.ep.qrsafe.MainActivity">
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/ic_action_edit"
+        android:title="@string/action_edit"
+        compat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_scan"
+        android:icon="@drawable/ic_action_camera"
+        android:title="@string/action_scan"
+        compat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_share_qrcode"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/share_qrcode"
+        compat:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>

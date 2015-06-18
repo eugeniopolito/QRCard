@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">QRCard</string>
+    <string name="about_qrsafe">QRCard is made by Eugenio Polito [eugenio.polito@gmail.com]</string>
+
+    <string name="action_edit">Edit</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_about">About</string>
+
+    <string name="qr_prompt">Put the QR code to be scanned inside the frame</string>
+    <string name="qr_code_wrong">The QR code format is wrong</string>
+    <string name="cannot_add_contact">This contact cannot be saved in the phone book</string>
+    <string name="config">Your personal data</string>
+
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="organization">Organization</string>
+    <string name="telephone">Phone</string>
+    <string name="address">Address</string>
+    <string name="zip_code">Zip code</string>
+    <string name="city">City</string>
+    <string name="email">E-mail</string>
+    <string name="notes">Notes</string>
+
+    <string name="start_activity">Generate a new QR code or acquire an existing one</string>
+    <string name="button_create">Generate QR code</string>
+    <string name="button_scan">Scan QR code</string>
+
+    <string name="add_widget">You can now add QRCard widget in your lock and/or home screen or share your QR code!</string>
+    <string name="generated_qr_code">Your QR code:</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="warning">Warning</string>
+
+    <string name="name_mandatory">Name is mandatory</string>
+    <string name="surname_mandatory">Surname is mandatory</string>
+    <string name="email_not_valid">E-mail is not valid</string>
+    <string name="site_not_valid">Web site address is not valid</string>
+    <string name="birthday_not_valid">Birthday is not valid</string>
+
+    <string name="qr_code_missing">You must create your QR code before you can share it!</string>
+
+    <string name="share_qrcode">Share</string>
+
+    <string name="add_contact">Add contact</string>
+    <string name="contact_added">Contact successfully added in the phone book</string>
+
+</resources>
