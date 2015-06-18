@@ -3,13 +3,32 @@ package it.ep.qrsafe;
 import android.provider.ContactsContract;
 
 /**
- * Created by eugenio on 31/05/15.
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2015 Eugenio Polito
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
  */
 public final class Contents {
     public static final String URL_KEY = "URL_KEY";
     public static final String NOTE_KEY = "NOTE_KEY";
-    // When using Type.CONTACT, these arrays provide the keys for adding or retrieving multiple
-    // phone numbers and addresses.
+
     public static final String[] PHONE_KEYS = {
             ContactsContract.Intents.Insert.PHONE, ContactsContract.Intents.Insert.SECONDARY_PHONE,
             ContactsContract.Intents.Insert.TERTIARY_PHONE
@@ -36,55 +55,28 @@ public final class Contents {
 
         public static final String CARD_TYPE = "MECARD";
 
-        // Plain text. Use Intent.putExtra(DATA, string). This can be used for URLs too, but string
-        // must include "http://" or "https://".
         public static final String TEXT = "TEXT_TYPE";
 
-        // An email type. Use Intent.putExtra(DATA, string) where string is the email address.
         public static final String EMAIL = "EMAIL_TYPE";
 
-        // Use Intent.putExtra(DATA, string) where string is the phone number to call.
         public static final String PHONE = "PHONE_TYPE";
 
-        // An SMS type. Use Intent.putExtra(DATA, string) where string is the number to SMS.
         public static final String SMS = "SMS_TYPE";
 
-
-        //  A contact. Send a request to encode it as follows:
-        //  <p/>
-        //  import android.provider.Contacts;
-        //  <p/>
-        //  Intent intent = new Intent(Intents.Encode.ACTION); intent.putExtra(Intents.Encode.TYPE,
-        //  CONTACT); Bundle bundle = new Bundle(); bundle.putString(Contacts.Intents.Insert.NAME,
-        //  "Jenny"); bundle.putString(Contacts.Intents.Insert.PHONE, "8675309");
-        //  bundle.putString(Contacts.Intents.Insert.EMAIL, "jenny@the80s.com");
-        //  bundle.putString(Contacts.Intents.Insert.POSTAL, "123 Fake St. San Francisco, CA 94102");
-        //  intent.putExtra(Intents.Encode.DATA, bundle);
 
         public static final String CONTACT = "CONTACT_TYPE";
 
 
-        // A geographic location. Use as follows:
-        // Bundle bundle = new Bundle();
-        // bundle.putFloat("LAT", latitude);
-        // bundle.putFloat("LONG", longitude);
-        // intent.putExtra(Intents.Encode.DATA, bundle);
-
         public static final String LOCATION = "LOCATION_TYPE";
 
-        // Tel
         public static final String TEL = "TEL";
 
-        // Address
         public static final String ADR = "ADR";
 
-        // Organization
         public static final String ORG = "ORG";
 
-        // Email
         public static final String EMAIL_STR = "EMAIL";
 
-        // Note
         public static final String NOTE = "NOTE";
 
         private Type() {
