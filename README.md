@@ -1,7 +1,7 @@
 # QRCard
 The open-source code for the QRCard project. <br>
 QRCard is an Android 4.4 Kit Kat generator QR Code for vCards. With QRCard you can keep your QR code personal contact in a widget or share it.
-You can also scan an existing vCard QR code and add it to your device phone book.
+You can also scan an existing vCard QR code and add it to your device phone book. <br>
 The official web site is: [QRCard]
 
 ### Author
