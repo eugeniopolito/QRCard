@@ -19,7 +19,7 @@ QRCard uses [zxing] as QR code library.
 ### Installation
 
 ```sh
-$ git clone https://github.com/eugeniopolito/QRCard QRCard
+$ git clone https://github.com/eugeniopolito/QRCard.git QRCard
 ```
 
 License
