@@ -5,9 +5,7 @@ You can also scan an existing vCard QR code and add it to your device phone book
 The official web site is: [QRCard]
 
 ### Author
-QRCard is made by [eugenio.polito]. <br> 
-*LinkedIn*: [Linkedin] <br>
-*Twitter*: [Twitter]
+QRCard is made by [eugenio.polito]. Feel free to contact me on [LinkedIn] or [Twitter].
 
 ### Version
 1.5
@@ -30,5 +28,5 @@ MIT
 [eugenio.polito]:mailto:eugenio.polito@gmail.com
 [QRCard]:https://qrcard.wordpress.com
 [zxing]:https://github.com/zxing/zxing
-[Linkedin]:https://it.linkedin.com/pub/eugenio-polito/73/9b4/2a3
+[LinkedIn]:https://it.linkedin.com/pub/eugenio-polito/73/9b4/2a3
 [Twitter]:https://twitter.com/EugenioPolito
